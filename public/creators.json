@@ -1,0 +1,184 @@
+{
+  "creators": [
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d69",
+      "username": "PewDiePie",
+      "email": "pewdiepie@example.com",
+      "password": "PewDiePieLovesPizza123!",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Let's play! Gaming and comedy videos.",
+      "createdAt": "2024-04-01T18:25:43.511Z",
+      "updatedAt": "2024-05-01T12:30:00.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d6a",
+      "username": "KSI",
+      "email": "ksi@example.com",
+      "password": "KSIBoxingChamp2024!",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Comedian, rapper, and professional boxer.",
+      "createdAt": "2024-04-05T09:45:00.000Z",
+      "updatedAt": "2024-04-25T15:20:30.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d6b",
+      "username": "jacksepticeye",
+      "email": "jacksepticeye@example.com",
+      "password": "GreenHairDontCare123$",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Let's play gaming videos and vlogs.",
+      "createdAt": "2024-04-10T14:35:00.000Z",
+      "updatedAt": "2024-04-30T11:40:15.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d6c",
+      "username": "Markiplier",
+      "email": "markiplier@example.com",
+      "password": "MarkiplierLovesScreaming456%",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Gaming and comedy videos.",
+      "createdAt": "2024-04-15T18:20:00.000Z",
+      "updatedAt": "2024-05-01T09:15:30.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d6d",
+      "username": "DanTDM",
+      "email": "dantdm@example.com",
+      "password": "DiamondMinecraftMaster789#",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Minecraft gaming videos and vlogs.",
+      "createdAt": "2024-04-20T11:05:00.000Z",
+      "updatedAt": "2024-04-30T17:45:20.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d6e",
+      "username": "CrankGameplays",
+      "email": "crankgameplays@example.com",
+      "password": "CrankysComedicTunes456!",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Gaming, comedy, and music videos.",
+      "createdAt": "2024-04-25T15:30:00.000Z",
+      "updatedAt": "2024-05-10T08:20:10.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d6f",
+      "username": "MrBeast",
+      "email": "mrbeast@example.com",
+      "password": "ChallengingCompassion2024#",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Philanthropic and creative challenge videos.",
+      "createdAt": "2024-04-01T12:40:00.000Z",
+      "updatedAt": "2024-05-05T14:25:45.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d70",
+      "username": "Dream",
+      "email": "dream@example.com",
+      "password": "MinecraftManhunter2024!",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Minecraft gameplay, challenges, and manhunts.",
+      "createdAt": "2024-04-15T09:00:00.000Z",
+      "updatedAt": "2024-05-01T17:35:20.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d71",
+      "username": "Charli D'Amelio",
+      "email": "charlidamelio@example.com",
+      "password": "DancingQueen2024#",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Dance videos, vlogs, and lifestyle content.",
+      "createdAt": "2024-04-20T14:10:00.000Z",
+      "updatedAt": "2024-05-08T11:50:40.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d72",
+      "username": "Zach King",
+      "email": "zachking@example.com",
+      "password": "MagicMoments2024!",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Visual effects, magic, and creative videos.",
+      "createdAt": "2024-04-25T16:15:00.000Z",
+      "updatedAt": "2024-05-05T13:30:25.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d73",
+      "username": "Valkyrae",
+      "email": "valkyrae@example.com",
+      "password": "GamingGoddess2024#",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Gaming, IRL, and lifestyle content creator.",
+      "createdAt": "2024-04-01T18:35:00.000Z",
+      "updatedAt": "2024-05-10T10:20:50.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d74",
+      "username": "Elliana Walmsley",
+      "email": "ellianawal@example.com",
+      "password": "DancingDiva2024!",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Dance videos, vlogs, and lifestyle content.",
+      "createdAt": "2024-04-10T13:45:00.000Z",
+      "updatedAt": "2024-04-30T15:55:30.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d75",
+      "username": "MrBeast",
+      "email": "mrbeast@example.com",
+      "password": "ChallengingCompassion2024!",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Philanthropic and creative challenge videos.",
+      "createdAt": "2024-04-15T11:20:00.000Z",
+      "updatedAt": "2024-04-30T08:40:15.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d76",
+      "username": "HasanAbi",
+      "email": "hasanabi@example.com",
+      "password": "PoliticalPundit2024#",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Political commentary, reaction, and gaming videos.",
+      "createdAt": "2024-04-20T15:30:00.000Z",
+      "updatedAt": "2024-05-15T14:25:45.000Z"
+    },
+    {
+      "_id": "6621ef4d4f7c9bdd66a14d77",
+      "username": "Pokimane",
+      "email": "pokimane@example.com",
+      "password": "GamingGoddess2024!",
+      "profilePic": "https://via.placeholder.org/150",
+      "coverPic": "https://via.placeholder.org/800x200",
+      "bio": "Gaming, IRL, and lifestyle content creator.",
+      "createdAt": "2024-04-01T12:00:00.000Z",
+      "updatedAt": "2024-04-30T16:45:20.000Z"
+    },
+    {
+      "_id": "662737b8959653858189f2ac",
+      "name": "avidaa",
+      "email": "darjsavidaa@gmail.com",
+      "profilePic": "placeholder.org/300x300",
+      "createdAt": "2024-04-23T04:23:20.045Z",
+      "updatedAt": "2024-04-23T04:23:20.045Z",
+      "__v": 0
+    },
+    {
+      "_id": "6628a75a84c8336e43e5c68b",
+      "createdAt": "2024-04-24T06:31:54.425Z",
+      "updatedAt": "2024-04-24T06:31:54.425Z",
+      "__v": 0
+    }
+  ]
+}

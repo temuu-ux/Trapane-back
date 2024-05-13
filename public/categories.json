@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Art",
+    "desc": "Paintings, drawings, sculptures, and other artistic works.",
+    "createdAt": "2023-04-23T12:34:56.789Z",
+    "updatedAt": "2023-04-23T12:34:56.789Z"
+  },
+  {
+    "name": "Music",
+    "desc": "Compositions, recordings, and live performances.",
+    "createdAt": "2023-04-23T12:34:56.789Z",
+    "updatedAt": "2023-04-23T12:34:56.789Z"
+  },
+  {
+    "name": "Writing",
+    "desc": "Books, articles, poetry, and other literary works.",
+    "createdAt": "2023-04-23T12:34:56.789Z",
+    "updatedAt": "2023-04-23T12:34:56.789Z"
+  },
+  {
+    "name": "Photography",
+    "desc": "Captivating images and visual narratives.",
+    "createdAt": "2023-04-23T12:34:56.789Z",
+    "updatedAt": "2023-04-23T12:34:56.789Z"
+  },
+  {
+    "name": "Design",
+    "desc": "Graphic, product, and interior design creations.",
+    "createdAt": "2023-04-23T12:34:56.789Z",
+    "updatedAt": "2023-04-23T12:34:56.789Z"
+  },
+  {
+    "name": "Filmmaking",
+    "desc": "Movies, short films, and video productions.",
+    "createdAt": "2023-04-23T12:34:56.789Z",
+    "updatedAt": "2023-04-23T12:34:56.789Z"
+  },
+  {
+    "name": "Crafts",
+    "desc": "Handmade items, DIY projects, and artisanal goods.",
+    "createdAt": "2023-04-23T12:34:56.789Z",
+    "updatedAt": "2023-04-23T12:34:56.789Z"
+  },
+  {
+    "name": "Comedy",
+    "desc": "Stand-up, sketch comedy, and humorous performances.",
+    "createdAt": "2023-04-23T12:34:56.789Z",
+    "updatedAt": "2023-04-23T12:34:56.789Z"
+  },
+  {
+    "name": "Dance",
+    "desc": "Choreographed routines, dance performances, and movement art.",
+    "createdAt": "2023-04-23T12:34:56.789Z",
+    "updatedAt": "2023-04-23T12:34:56.789Z"
+  },
+  {
+    "name": "Gaming",
+    "desc": "Video game development, streaming, and content creation.",
+    "createdAt": "2023-04-23T12:34:56.789Z",
+    "updatedAt": "2023-04-23T12:34:56.789Z"
+  }
+]
