@@ -1,4 +1,3 @@
-import cors from "@/helper/cors";
 import { NextApiRequest, NextApiResponse } from "next";
 import { deleteComment } from "@/service/comment";
 import { CommentType } from "@/utils/types";

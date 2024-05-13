@@ -1,5 +1,5 @@
 import { connectDB } from "@/helper/connectDB";
-import cors from "@/helper/cors";
+
 import { NextApiRequest, NextApiResponse } from "next";
 import { getCreator } from "@/service/creator";
 import { getPostByCreatorId } from "@/service/post";

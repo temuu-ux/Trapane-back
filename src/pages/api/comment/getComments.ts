@@ -1,4 +1,3 @@
-import cors from "@/helper/cors";
 import { NextApiRequest, NextApiResponse } from "next";
 import { getCommentsByPostId } from "@/service/comment";
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {

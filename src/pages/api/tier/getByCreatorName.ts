@@ -1,4 +1,3 @@
-import cors from "@/helper/cors";
 import { NextApiRequest, NextApiResponse } from "next";
 import { getTierByCreatorId } from "@/service/tier";
 import { getCreatorByName } from "@/service/creator";

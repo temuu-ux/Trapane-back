@@ -1,4 +1,3 @@
-import cors from "@/helper/cors";
 import { connectDB } from "@/helper/connectDB";
 import { NextApiResponse, NextApiRequest } from "next";
 import { getPatrons } from "@/service/patron";

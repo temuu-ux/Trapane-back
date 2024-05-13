@@ -1,4 +1,3 @@
-import cors from "@/helper/cors";
 import { TierType } from "@/utils/types";
 import { connectDB } from "@/helper/connectDB";
 import { NextApiRequest, NextApiResponse } from "next";

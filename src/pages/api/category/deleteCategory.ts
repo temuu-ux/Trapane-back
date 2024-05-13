@@ -1,4 +1,3 @@
-import cors from "@/helper/cors";
 import { connectDB } from "@/helper/connectDB";
 import { NextApiResponse, NextApiRequest } from "next";
 import { deleteCategory } from "@/service/category";

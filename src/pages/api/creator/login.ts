@@ -1,4 +1,3 @@
-import cors from "@/helper/cors";
 import { connectDB } from "@/helper/connectDB";
 import { NextApiRequest, NextApiResponse } from "next";
 import { LoginCreator } from "@/service/creator";
