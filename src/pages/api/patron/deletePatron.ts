@@ -4,7 +4,7 @@ import { NextApiResponse, NextApiRequest } from "next";
 import { deletePatron } from "@/service/patron";
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
+
   try {
     const id = req.body.id;
     const deletedPatron = await deletePatron(id);

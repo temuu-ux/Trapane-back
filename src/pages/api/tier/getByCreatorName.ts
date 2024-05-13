@@ -7,8 +7,8 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-    await connectDB();
-    await cors(req, res);
+  await connectDB();
+
   const { creatorName } = req.body;
 
   if (!creatorName) {
@@ -19,10 +19,7 @@ export default async function handler(
     const creator = await getCreatorByName(creatorName);
     const data = await getTierByCreatorId(creator.id);
     return res.status(200).json(data);
-  }
-  catch (error) {
+  } catch (error) {
     return res.status(500).json({ error });
   }
 }
-
-    

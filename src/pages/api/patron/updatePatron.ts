@@ -5,7 +5,7 @@ import { NextApiResponse, NextApiRequest } from "next";
 import { updatePatron } from "@/service/patron";
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
+
   try {
     const { id, name, email, password, profilePic } = req.body;
     // const patron = await getPatron(id);

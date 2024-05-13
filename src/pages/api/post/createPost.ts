@@ -13,7 +13,7 @@ interface jwtPayload {
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
   await connectDB();
-  await cors(req, res);
+
   console.log("post req recieved");
   try {
     const postData = req.body;

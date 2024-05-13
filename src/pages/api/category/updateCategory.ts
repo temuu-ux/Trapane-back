@@ -5,7 +5,7 @@ import { updateCategory } from "@/service/category";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
+
   try {
     const { _id, name, desc, createdAt } = req.body;
     const updatedCategory = await updateCategory(_id, {

@@ -7,7 +7,7 @@ import { createCategory } from "@/service/category";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
+
   try {
     const { name, desc } = req.body;
     const category: CategoryType = {

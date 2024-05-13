@@ -5,7 +5,7 @@ import { LoginCreator } from "@/service/creator";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
+
   try {
     const { email, password } = req.body;
     const token = await LoginCreator(email, password);

@@ -5,7 +5,6 @@ import { updatePost } from "@/service/post";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
 
   try {
     const {

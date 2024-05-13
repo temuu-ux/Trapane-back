@@ -26,7 +26,6 @@ export default async function handler(
   res: NextApiResponse
 ) {
   await connectDB();
-  await cors(req, res);
 
   const { creatorName, patronId } = req.body;
   const decodedPatronId: jwtPayload | any = jwt.verify(

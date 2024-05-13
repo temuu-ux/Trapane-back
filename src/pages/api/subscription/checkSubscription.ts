@@ -4,7 +4,7 @@ import { NextApiResponse, NextApiRequest } from "next";
 import { checkSubscription } from "@/service/subscription";
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
+
   try {
     const { patronId, creatorId } = req.body;
     const subscription = await checkSubscription(patronId, creatorId);
@@ -13,4 +13,4 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     res.status(500).json(error);
   }
 };
-export default handler; 
+export default handler;

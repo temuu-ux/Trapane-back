@@ -11,7 +11,7 @@ import {
 } from "@/service/creator";
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
+
   try {
     const {
       _id,

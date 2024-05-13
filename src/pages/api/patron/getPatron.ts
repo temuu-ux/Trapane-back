@@ -4,7 +4,7 @@ import { NextApiResponse, NextApiRequest } from "next";
 import { getPatrons } from "@/service/patron";
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
+
   try {
     const patrons = await getPatrons();
     res.status(200).json({ patrons: patrons });

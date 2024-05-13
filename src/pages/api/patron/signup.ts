@@ -6,7 +6,7 @@ import { createPatron } from "@/service/patron";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
+
   try {
     const { name, email, password, profilePic } = req.body;
     const patron: PatronType = {

@@ -5,7 +5,6 @@ import { deleteCategory } from "@/service/category";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
 
   try {
     const id = req.body._id;

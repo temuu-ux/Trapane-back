@@ -4,7 +4,7 @@ import { NextApiResponse, NextApiRequest } from "next";
 import { getSubscriptions } from "@/service/subscription";
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
+
   try {
     const subscriptions = await getSubscriptions();
     res.status(200).json({ subscriptions: subscriptions });

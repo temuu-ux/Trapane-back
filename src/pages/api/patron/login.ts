@@ -4,7 +4,7 @@ import { NextApiResponse, NextApiRequest } from "next";
 import { LoginPatron } from "@/service/patron";
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
+
   try {
     const { email, password } = req.body;
     const token = await LoginPatron(email, password);

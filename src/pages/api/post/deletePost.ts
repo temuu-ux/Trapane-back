@@ -8,7 +8,6 @@ export default async function handler(
   res: NextApiResponse
 ) {
   await connectDB();
-  await cors(req, res);
 
   try {
     const id = req.body._id;

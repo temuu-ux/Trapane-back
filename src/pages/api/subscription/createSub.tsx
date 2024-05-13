@@ -8,7 +8,6 @@ import jwt from "jsonwebtoken";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   await connectDB();
-  await cors(req, res);
 
   try {
     console.log(req.body);

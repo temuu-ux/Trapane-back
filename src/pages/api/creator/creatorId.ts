@@ -14,7 +14,6 @@ export default async function handler(
   res: NextApiResponse
 ) {
   await connectDB();
-  await cors(req, res);
 
   const { creatorId } = req.body;
   try {
